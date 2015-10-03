@@ -10,7 +10,6 @@ public:
 
 	Character();
 
-	void Move(AppEnv env);
 
 	Vec2f pos;
 	Vec2f size;

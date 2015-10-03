@@ -8,15 +8,3 @@ Character::Character()
 	speed = 5;
 }
 
-void Character::Move(AppEnv env)
-{
-	if (env.isPressKey('A'))
-	{
-		pos.x() -= speed;
-	}
-
-	if (env.isPressKey('S'))
-	{
-		pos.x() += speed;
-	}
-}
