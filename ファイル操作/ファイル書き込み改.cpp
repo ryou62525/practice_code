@@ -9,40 +9,12 @@
 
 using namespace std;
 
-class player
-{
-public:
-
-	
-	int HP;
-	int ATK;
-	int DEF;
-	player(){
-		HP = 19;
-		ATK = 73;
-		DEF = 827;
-	};
-private:
-
-};
-
-struct status
-{
-	int HP;
-	int ATK;
-	int DEF;
-
-};
-
 int main() {
  
   AppEnv env(Window::WIDTH, Window::HEIGHT);
 
   //最初にオブジェクトであるfileを作成
   fstream file;
-  player p;
-  
-  status s;
 
   while (env.isOpen()) {
 
