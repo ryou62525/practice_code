@@ -3,14 +3,15 @@
 //---------------------------------------------//
 #pragma once
 
+#include <iostream>
+#include <iomanip>
+#include <memory>
+#include <sstream>
+#include <string>
+
+#include "Fade.h"
 #include "lib/framework.hpp"
 #include "lib/appEnv.hpp"
-#include <memory>
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <iomanip>
-#include "Fade.h"
 
 enum Window
 {
