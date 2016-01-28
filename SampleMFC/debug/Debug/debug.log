@@ -1,0 +1,14 @@
+﻿2016/01/23 10:45:32 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\りょう\Documents\GitHub\practice_code\SampleMFC\debug\debug.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\りょう\documents\github\practice_code\samplemfc\debug\main.cpp(16): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'std::string'
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\りょう\Documents\GitHub\practice_code\SampleMFC\debug\Debug\debug.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"C:\Users\りょう\Documents\GitHub\practice_code\SampleMFC\debug\Debug\debug.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\りょう\Documents\GitHub\practice_code\SampleMFC\debug\Debug\debug.lib" /MACHINE:X86 Debug\main.obj
+     1>LINK : fatal error LNK1168: ファイル C:\Users\りょう\Documents\GitHub\practice_code\SampleMFC\debug\Debug\debug.exe を開いて書き込むことができません。
+     1>プロジェクト "C:\Users\りょう\Documents\GitHub\practice_code\SampleMFC\debug\debug.vcxproj" (Build ターゲット) のビルドが終了しました -- 失敗。
+
+ビルドに失敗しました。
+
+経過時間 00:00:00.81
